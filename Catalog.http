@@ -1,0 +1,63 @@
+@rfapiprofileid=<insert value>
+@rfauthtoken=<insert value>
+
+###
+
+POST https://events.rainfocus.com/api/search
+accept: */*
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+rfapiprofileid: {{rfapiprofileid}}
+rfauthtoken: {{rfauthtoken}}
+
+tab.sessionplanned=1602215152230002KZab&type=session&browserTimezone=Europe%2FBerlin&catalogDisplay=list
+
+###
+
+POST https://events.rainfocus.com/api/search
+accept: */*
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+rfapiprofileid: {{rfapiprofileid}}
+rfauthtoken: {{rfauthtoken}}
+
+tab.sessionplanned=1602215152230002KZab&type=session&browserTimezone=Europe%2FBerlin&catalogDisplay=list&from=20
+
+###
+
+POST https://events.rainfocus.com/api/search
+accept: */*
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+rfapiprofileid: {{rfapiprofileid}}
+rfauthtoken: {{rfauthtoken}}
+
+tab.sessionplanned=1602215152230002KZab&type=session&browserTimezone=Europe%2FBerlin&catalogDisplay=list&from=40
+
+###
+
+POST https://events.rainfocus.com/api/search
+accept: */*
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+rfapiprofileid: {{rfapiprofileid}}
+rfauthtoken: {{rfauthtoken}}
+
+tab.sessionplanned=1602215152230002KZab&type=session&browserTimezone=Europe%2FBerlin&catalogDisplay=list&from=60
+
+###
+
+POST https://events.rainfocus.com/api/search
+accept: */*
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+rfapiprofileid: {{rfapiprofileid}}
+rfauthtoken: {{rfauthtoken}}
+
+tab.sessionplanned=1602215152230002KZab&type=session&browserTimezone=Europe%2FBerlin&catalogDisplay=list&from=80
+
+###
+
+POST https://events.rainfocus.com/api/search
+accept: */*
+content-type: application/x-www-form-urlencoded; charset=UTF-8
+rfapiprofileid: {{rfapiprofileid}}
+rfauthtoken: {{rfauthtoken}}
+
+tab.sessionplanned=1602215152230002KZab&type=session&browserTimezone=Europe%2FBerlin&catalogDisplay=list&from=100
+
